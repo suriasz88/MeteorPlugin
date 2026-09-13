@@ -1,0 +1,14 @@
+name: MeteorPlugin
+version: 1.0
+main: pl.twojnick.meteor.Main
+api-version: '1.21'
+author: TwojNick
+description: A Bukkit/Paper plugin that spawns giant meteors with crater effects
+commands:
+  meteor:
+    description: Spuszcza gigantyczny meteor w miejsce, na ktore sie patrzysz.
+    permission: meteor.admin
+permissions:
+  meteor.admin:
+    description: Permission to use meteor command
+    default: op
